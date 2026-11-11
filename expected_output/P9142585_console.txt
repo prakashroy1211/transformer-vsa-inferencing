@@ -1,0 +1,103 @@
+
+[Stage 1] Atomic scores
+  CHROMATIN_DENSE                0.9636
+  CELLS_ADEQUATE                 0.9636
+  UROTHELIAL_ORIGIN              0.9635
+  CHROMATIN_COARSE               0.9635
+  NUCLEUS_LARGE                  0.9634
+  NUCLEUS_MODERATE               0.9634
+  CHROMATIN_VESICULAR            0.9633
+  NUCLEAR_MEMBRANE_IRREGULAR     0.9633
+  CHROMATIN_HYPERCHROMATIC       0.9632
+  CYTOPLASM_MODERATE             0.9631
+  CELL_PLEOMORPHIC               0.9630
+  NUCLEUS_VERY_LARGE             0.9629
+  CELLS_ABUNDANT                 0.9622
+  DISRUPTED_ARCHITECTURE         0.9601
+  CELL_COHESIVE                  0.9581
+  CYTOPLASM_SCANT                0.9404
+  BACKGROUND_CLEAN               0.9343
+  CHROMATIN_DELICATE             0.9329
+  DEGENERATIVE_CHANGES           0.9179
+  UMBRELLA_CELL_MORPHOLOGY       0.9161
+  CELL_UNIFORM                   0.7878
+  GLANDULAR_ORIGIN               0.3187
+  BLOOD_PRESENT                  0.0000
+  CELLS_SPARSE                   0.0000
+  CELL_ISOLATED                  0.0000
+  CYTOPLASM_ABUNDANT             0.0000
+  INFLAMMATION_MILD              0.0000
+  INFLAMMATION_MODERATE          0.0000
+  KOILOCYTIC_CHANGES             0.0000
+  NECROSIS_PRESENT               0.0000
+  NUCLEAR_MEMBRANE_GROOVED       0.0000
+  NUCLEAR_MEMBRANE_SMOOTH        0.0000
+  NUCLEUS_SMALL                  0.0000
+  SQUAMOUS_ORIGIN                0.0000
+  VACUOLIZATION                  0.0000
+
+[Stage 2] Composite scores
+  specimen_type
+    Voided urine                   0.9635
+    Bladder wash                   0.9622
+    Instrumented                   0.9601
+    Catheterized                   0.0000
+  gross_examination
+    Clear                          0.9343
+    Others                         0.9179
+    Haemorrhagic                   0.0000
+    Turbid                         0.0000
+  background
+    Inflammatory                   0.9636
+    Hemorrhagic                    0.9636
+    Clean                          0.9343
+    Necrotic                       0.9179
+    Degenerative                   0.9179
+  cell_types_observed
+    Atypical urothelial cells      0.9633
+    Glandular cells                0.5525
+    Benign urothelial cells        0.0000
+    Squamous cells                 0.0000
+    Inflammatory cells             0.0000
+  cellularity
+    Adequate                       0.9636
+    Inadequate                     0.0000
+  nc_ratio
+    0.5-0.7                        0.9633
+    >0.7                           0.9518
+    Normal                         0.0000
+  nuclear_contour
+    Irregular                      0.9631
+    Smooth and regular             0.0000
+  chromatin_pattern
+    Coarsely granular              0.9635
+    Vesicular                      0.9633
+    Irregular chromatinic rim      0.9632
+    Fine and evenly distributed    0.8573
+  hyperchromasia
+    Present                        0.9632
+    Absent                         0.0368
+  umbrella_cells
+    Present                        0.9395
+    Absent                         0.0839
+
+[Stage 3] Paris System diagnosis
+   50.84%  Atypical Urothelial Cells (AUC)
+   49.15%  High-Grade Urothelial Carcinoma (HGUC)
+    0.00%  Other Malignancy
+    0.00%  Negative for High-Grade Urothelial Carcinoma (NHGUC)
+    0.00%  Suspicious for High-Grade Urothelial Carcinoma (SHGUC)
+    0.00%  Nondiagnostic / Unsatisfactory
+  Winner: Atypical Urothelial Cells (AUC)   (margin over runner-up: 1.69 percentage points)
+
+[Stage 4] Report
+  Specimen Type     : Voided urine (score=0.9635, tier 2)
+  Gross Examination : Clear (score=0.9343, tier 2)
+  Cellularity       : Adequate (score=0.9636, tier 1)
+  Background        : Inflammatory (score=0.9636, tier 2)
+  N:C Ratio         : 0.5-0.7 (score=0.9633, tier 1)
+  Nuclear Contour   : Irregular (score=0.9631, tier 1)
+  Chromatin Pattern : Coarsely granular (score=0.9635, tier 2)
+  Hyperchromasia    : Present (score=0.9632, tier 1)
+  Umbrella Cells    : Present (score=0.9395, tier 2)
+  Cell Types        : Atypical urothelial cells (0.9633)

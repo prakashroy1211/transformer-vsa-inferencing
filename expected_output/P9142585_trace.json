@@ -1,0 +1,161 @@
+{
+  "image": "P9142585.JPG",
+  "atomic_scores": {
+    "BACKGROUND_CLEAN": 0.9342838525772095,
+    "BLOOD_PRESENT": 0.0,
+    "CELLS_ABUNDANT": 0.9621990919113159,
+    "CELLS_ADEQUATE": 0.9635758399963379,
+    "CELLS_SPARSE": 0.0,
+    "CELL_COHESIVE": 0.9580755233764648,
+    "CELL_ISOLATED": 0.0,
+    "CELL_PLEOMORPHIC": 0.9629660844802856,
+    "CELL_UNIFORM": 0.7878358364105225,
+    "CHROMATIN_COARSE": 0.9634627103805542,
+    "CHROMATIN_DELICATE": 0.9328975677490234,
+    "CHROMATIN_DENSE": 0.9635783433914185,
+    "CHROMATIN_HYPERCHROMATIC": 0.9632003307342529,
+    "CHROMATIN_VESICULAR": 0.9632887840270996,
+    "CYTOPLASM_ABUNDANT": 0.0,
+    "CYTOPLASM_MODERATE": 0.9631400108337402,
+    "CYTOPLASM_SCANT": 0.940390944480896,
+    "DEGENERATIVE_CHANGES": 0.9179145097732544,
+    "DISRUPTED_ARCHITECTURE": 0.9600609540939331,
+    "GLANDULAR_ORIGIN": 0.3186514377593994,
+    "INFLAMMATION_MILD": 0.0,
+    "INFLAMMATION_MODERATE": 0.0,
+    "KOILOCYTIC_CHANGES": 0.0,
+    "NECROSIS_PRESENT": 0.0,
+    "NUCLEAR_MEMBRANE_GROOVED": 0.0,
+    "NUCLEAR_MEMBRANE_IRREGULAR": 0.9632842540740967,
+    "NUCLEAR_MEMBRANE_SMOOTH": 0.0,
+    "NUCLEUS_LARGE": 0.9634069204330444,
+    "NUCLEUS_MODERATE": 0.9633793830871582,
+    "NUCLEUS_SMALL": 0.0,
+    "NUCLEUS_VERY_LARGE": 0.9629256725311279,
+    "SQUAMOUS_ORIGIN": 0.0,
+    "UMBRELLA_CELL_MORPHOLOGY": 0.9160894155502319,
+    "UROTHELIAL_ORIGIN": 0.963464617729187,
+    "VACUOLIZATION": 0.0
+  },
+  "composite_scores": {
+    "specimen_type": {
+      "Voided urine": 0.963464617729187,
+      "Catheterized": 0.0,
+      "Bladder wash": 0.9621990919113159,
+      "Instrumented": 0.9600609540939331
+    },
+    "gross_examination": {
+      "Clear": 0.9342838525772095,
+      "Haemorrhagic": 0.0,
+      "Turbid": 0.0,
+      "Others": 0.9179145097732544
+    },
+    "background": {
+      "Clean": 0.9342838525772095,
+      "Inflammatory": 0.9635758399963379,
+      "Hemorrhagic": 0.9635758399963379,
+      "Necrotic": 0.9179145097732544,
+      "Degenerative": 0.9179145097732544
+    },
+    "cell_types_observed": {
+      "Benign urothelial cells": 0.0,
+      "Atypical urothelial cells": 0.9632700038252657,
+      "Squamous cells": 0.0,
+      "Glandular cells": 0.5525324814035819,
+      "Inflammatory cells": 0.0
+    },
+    "cellularity": {
+      "Adequate": 0.9635758399963379,
+      "Inadequate": 0.0
+    },
+    "nc_ratio": {
+      "Normal": 0.0,
+      "0.5-0.7": 0.9632596895248796,
+      ">0.7": 0.9518293669694491
+    },
+    "nuclear_contour": {
+      "Smooth and regular": 0.0,
+      "Irregular": 0.9631251561387261
+    },
+    "chromatin_pattern": {
+      "Fine and evenly distributed": 0.8573039925095963,
+      "Vesicular": 0.9632887840270996,
+      "Coarsely granular": 0.9635205251513329,
+      "Irregular chromatinic rim": 0.9632422914901879
+    },
+    "hyperchromasia": {
+      "Present": 0.9632003307342529,
+      "Absent": 0.03679966926574707
+    },
+    "umbrella_cells": {
+      "Present": 0.9394784396455613,
+      "Absent": 0.08391058444976807
+    }
+  },
+  "diagnosis": "Atypical Urothelial Cells (AUC)",
+  "diagnosis_confidence": {
+    "Negative for High-Grade Urothelial Carcinoma (NHGUC)": 2.6974271349899936e-07,
+    "Atypical Urothelial Cells (AUC)": 0.5084251165390015,
+    "High-Grade Urothelial Carcinoma (HGUC)": 0.4915401041507721,
+    "Suspicious for High-Grade Urothelial Carcinoma (SHGUC)": 2.6974271349899936e-07,
+    "Other Malignancy": 3.3972897654166445e-05,
+    "Nondiagnostic / Unsatisfactory": 2.6974271349899936e-07
+  },
+  "diagnosis_margin": 0.01688501238822937,
+  "report": {
+    "cellularity": {
+      "value": "Adequate",
+      "score": 0.9635758399963379,
+      "tier": 1
+    },
+    "nc_ratio": {
+      "value": "0.5-0.7",
+      "score": 0.9632596895248796,
+      "tier": 1
+    },
+    "nuclear_contour": {
+      "value": "Irregular",
+      "score": 0.9631251561387261,
+      "tier": 1
+    },
+    "hyperchromasia": {
+      "value": "Present",
+      "score": 0.9632003307342529,
+      "tier": 1
+    },
+    "specimen_type": {
+      "value": "Voided urine",
+      "score": 0.963464617729187,
+      "tier": 2
+    },
+    "gross_examination": {
+      "value": "Clear",
+      "score": 0.9342838525772095,
+      "tier": 2
+    },
+    "background": {
+      "value": "Inflammatory",
+      "score": 0.9635758399963379,
+      "tier": 2
+    },
+    "chromatin_pattern": {
+      "value": "Coarsely granular",
+      "score": 0.9635205251513329,
+      "tier": 2
+    },
+    "umbrella_cells": {
+      "value": "Present",
+      "score": 0.9394784396455613,
+      "tier": 2
+    },
+    "cell_types_observed": {
+      "value": [
+        "Atypical urothelial cells"
+      ],
+      "scores": [
+        0.9632700038252657
+      ],
+      "tier": 3
+    }
+  }
+}

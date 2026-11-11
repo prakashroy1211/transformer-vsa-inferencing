@@ -1,0 +1,6 @@
+torch
+torchvision
+torch-hd          # PyPI name of torchhd (imported as `import torchhd`)
+transformers
+pillow
+numpy
